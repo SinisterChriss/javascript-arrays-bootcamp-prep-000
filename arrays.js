@@ -1,7 +1,7 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
+var counting = ['foo']
 
-function addElementToBeginningOfArray(){
-  var counting = [1]
+function addElementToBeginningOfArray(chocolateBars, counting){
   counting.unshift('foo')
 }
 
